@@ -5,6 +5,7 @@ public class Car {
     public Car(String name, double mass) {
         this.mass = mass;
         this.name = name;
+        
     }
 
     public double getMass() {
