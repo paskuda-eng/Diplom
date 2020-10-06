@@ -1,11 +1,12 @@
-public class Car {
+import java.util.List;
+
+public class Car{
     private String name;
     private double mass;
 
     public Car(String name, double mass) {
         this.mass = mass;
         this.name = name;
-        
     }
 
     public double getMass() {
