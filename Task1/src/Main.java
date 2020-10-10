@@ -1,8 +1,9 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
         Car car1 = new Car("Volvo", 10);
         Car car2 = new Car("Mercedes", 12.5);
         Car car3 = new Car("Lada", 15);
