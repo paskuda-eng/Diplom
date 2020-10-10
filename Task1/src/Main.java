@@ -34,7 +34,7 @@ public class Main {
         list.add(String.valueOf(bus3));
         list.remove(1); // remove Mercedes
         Collections.sort(list);
-        for (String car : list) {
+        for (String car : list) {//врядли так делать надо
             System.out.println(car);
             if (car.contains("BMW")){
                 System.out.println(car + "Найден");
